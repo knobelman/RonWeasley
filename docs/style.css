@@ -1,0 +1,115 @@
+
+html {
+	scroll-behavior: smooth;
+  }
+#menu
+{
+	font-family: 'Raleway',sans-serif; 
+	position: sticky;
+	width: 100%;
+	height: 46px;
+	background: #740001;
+	top: 0;
+	box-shadow: 5px 5px 10px grey;
+}
+
+#menu a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #eeba30;
+  }
+
+#menu a:hover {
+	background: #ae0001;
+	color: #d3a625;
+	text-decoration: underline;
+}
+
+#menu a:active {
+	background-color:#c50202;
+}
+
+h1 { 
+	color: #000000; 
+	font-family: 'Raleway',sans-serif; 
+	font-size: 55px; font-weight: 800; 
+	line-height: 72px; margin: 0 0 24px; 
+	text-align: center; 
+	text-transform: uppercase;
+	text-shadow: 0 0 3px #740001
+}
+
+h1:hover{
+	color: #d3a625;
+}
+
+h2{
+	text-shadow: 0 0 6px #000000;
+	line-height: 0.6;
+	font-family: 'Raleway',sans-serif; 	
+	background-color:#740001;;
+	color: #d3a625;
+
+}
+
+h2:hover{
+	background-color: #ae0001;
+	color: #eeba30;
+}
+
+p,h4{
+	font-family: 'Raleway',sans-serif; 
+	text-align: left;
+}
+
+#ron{
+	border: 2px solid #ae0001;
+	text-align: center;
+}
+
+img {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+img:hover {
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.5);
+}
+
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */  
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: #740001;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: #ae0001;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
