@@ -2,6 +2,13 @@
 html {
 	scroll-behavior: smooth;
   }
+
+body {
+	background-image: url("img/bg.jpg");
+	background-color: #cccccc;
+	background-attachment: fixed;
+	background-size:100%;
+}
 #menu
 {
 	font-family: 'Raleway',sans-serif; 
