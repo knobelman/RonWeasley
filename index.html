@@ -111,18 +111,19 @@
 
 <section id="contact" class="section">
     <h2 align="center">Contact Us</h2>
-    <form action="action_page.php">
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
 
         <label for="fname">Full Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
     
         <label for="lname">Email Address</label><br>
-        <input type="email" id="email" name="email" placeholder="email"><br><br>
+        <input type="email" id="email" name="email" placeholder="email" size="100%"><br><br>
     
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" ></textarea>
     
-        <input type="reset" value="Submit">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
     
       </form>
 <br/>
